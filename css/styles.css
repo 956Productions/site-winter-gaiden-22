@@ -1,8 +1,5 @@
----
-permalink: '/css/styles.css'
----
 .front-hero {
-    background: url('{{ 'img/wg_hero.png' | relative_url }}');
+    background: url('/img/wg_hero.png');
     background-position: center;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -12,7 +9,7 @@ td {
 }
 @font-face {
     font-family: titling;
-    src: url('{{'img/font.ttf' | relative_url }}')
+    src: url('/img/font.ttf');
 }
 .title {
     font-family: titling
