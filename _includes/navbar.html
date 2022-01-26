@@ -1,7 +1,7 @@
 <nav class="navbar is-fixed-top is-white" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item" href="/">
-            <img src="/img/logo.png">
+            <img src="{{ 'img/logo.png' | relative_url }}">
         </a>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
@@ -17,7 +17,7 @@
         <div class="navbar-end">
             {% for p in site.pages %}
             {% if p.name != "index.md" and p.title %}
-            <a class="navbar-item has-text-black" href="{{ p.url }}">
+            <a class="navbar-item has-text-black" href="{{ p.url | relative_url }}">
                 {{ p.title }}
             </a>
             {% endif %}

@@ -1,7 +1,7 @@
 ---
 title: Games
 ---
-For general rules and regulations applicable to 956 Productions events, refer to our [Player's Guide.]({% link guide.md %})
+For general rules and regulations applicable to 956 Productions events, refer to our [Player's Guide.]({{ '/guide' | relative_url}})
 
 # <a id="ggst"></a> Guilty Gear -Strive-
 ---
