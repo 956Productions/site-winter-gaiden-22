@@ -1,0 +1,19 @@
+.front-hero {
+    background: url('/img/wg_hero.png');
+    background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+td {
+    white-space: nowrap;
+}
+@font-face {
+    font-family: titling;
+    src: url('/img/font.ttf')
+}
+.title {
+    font-family: titling
+}
+.navbar {
+    border: 0px;
+}

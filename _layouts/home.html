@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+    {% include header.html %}
+    <body>
+        {% include navbar.html %}
+        <section class="hero front-hero is-info is-medium is-justify-content-end">
+            <div class="hero-body has-text-centered pb-4">
+                <div class="block mb-0">
+                    <img src="/img/logo.png" style="max-height: 180px; width: auto;">
+                </div>
+                <div class="block">
+                    <img src="/img/wg_text.png" style="max-height: 80px; width: auto;">
+                </div>
+            </div>
+        </section>
+        <section class="section has-background-white has-text-centered py-3">
+            <div class="columns is-centered is-multiline is-vcentered">
+                <div class="column is-narrow">
+                    <h1 class="title mb-3 has-text-black">Online Tournaments on PC in 5 Regions across 3 Weekends</h1>
+                    <div class="block">
+                        <span class="tag is-black is-medium mb-1">North America</span>
+                        <span class="tag is-black is-medium mb-1">South America</span>
+                        <span class="tag is-black is-medium mb-1">Brazil</span>
+                        <span class="tag is-black is-medium mb-1">Southeast Asia</span>
+                        <span class="tag is-black is-medium mb-1">Europe</span>
+                    </div>
+                </div>
+                <div class="column is-narrow">
+                    <a class="button is-primary is-large mb-2" href="{{ site.smashgg }}"><strong>REGISTER NOW</strong></a>
+                </div>
+            </div>
+        </section>
+        <section class="section has-background-black-ter">
+            <div class="container block">
+                <h1 class="title is-1 has-text-white has-text-centered">Welcome to {{ page.title }}</h1>
+                <div class="content has-text-white has-text-centered">
+                    {{ content }}
+                </div>
+            </div>
+        </section>
+        <section class="section has-background-black-bis">
+            <div class="container block">
+                <h1 class="title is-1 has-text-white has-text-centered">Event Schedule</h1>
+                <div class="columns is-multiline is-vcentered">
+                {% for g in site.data.schedule %}
+                    <div class="column is-one-third has-text-centered">
+                        <img src="/img/{{g.short}}_icon.png">
+                        <h2 class="title has-text-white">{{g.dates}}</h2>
+                        <a class="button is-link" href="{% link games.md %}#{{g.short}}">More Info</a>
+                    </div>
+                    <div class="column is-two-thirds">
+                        <div class="table-container">
+                            <table class="table is-fullwidth has-background-black-bis has-text-white is-narrow">
+                                <thead>
+                                    <tr>
+                                        <th class="has-text-white">Region</th>
+                                        <th class="has-text-white">Local Pools Time</th>
+                                        <th class="has-text-white">Stream</th>
+                                        <th class="has-text-white">Matcherino</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for i in g.regions %}
+                                    <tr>
+                                        <td>{{ i.region }}</td>
+                                        <td>{{ i.pools }}</td>
+                                        <td><a href="https://twitch.tv/{{ i.stream }}">{{ i.stream }}</a></td>
+                                        <td><a href="{{ i.matcherino }}">Click Here</a></td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </section>
+    </body>
+    {% include footer.html %}
+</html>

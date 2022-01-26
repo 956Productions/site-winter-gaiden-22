@@ -1,0 +1,44 @@
+<nav class="navbar is-fixed-top is-white" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/img/logo.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+  
+    <div class="navbar-menu has-background-white">
+        <div class="navbar-start">
+        </div>
+  
+        <div class="navbar-end">
+            {% for p in site.pages %}
+            {% if p.name != "index.md" and p.title %}
+            <a class="navbar-item has-text-black" href="{{ p.url }}">
+                {{ p.title }}
+            </a>
+            {% endif %}
+            {% endfor %}
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a class="button is-info" href="{{ site.smashgg }}">
+                        <strong>Register</strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<script>
+    $(document).ready(function() {
+    // Check for click events on the navbar burger icon
+        $(".navbar-burger").click(function() {
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            $(".navbar-burger").toggleClass("is-active");
+            $(".navbar-menu").toggleClass("is-active");
+        });
+    });
+</script>

@@ -1,0 +1,72 @@
+- game: Guilty Gear -Strive-
+  short: ggst
+  dates: February 26-27
+  regions:
+    - region: Southeast Asia
+      pools: 2/26 1:00pm SGT
+      stream: airdasher_sea
+      matcherino: https://matcherino.com/tournaments/64932
+    - region: South America
+      pools: 2/26 5:00pm BRT
+      stream: lagfighterchile
+      matcherino: https://matcherino.com/tournaments/64933
+    - region: Brazil
+      pools: 2/26 8:00pm BRT
+      stream: zatefgc
+      matcherino: https://matcherino.com/tournaments/64934
+    - region: Europe
+      pools: 2/27 4:00pm UTC
+      stream: kashkabald
+      matcherino: https://matcherino.com/tournaments/64935
+    - region: North America
+      pools: 2/27 4:00pm PST
+      stream: 956productions
+      matcherino: https://matcherino.com/tournaments/64936
+- game: 'Melty Blood: Type Lumina'
+  short: mbtl
+  dates: March 05-06
+  regions:
+    - region: Southeast Asia
+      pools: 3/5 1:00pm SGT
+      stream: airdasher_sea
+      matcherino: https://matcherino.com/tournaments/64937
+    - region: South America
+      pools: 3/5 7:00pm BRT
+      stream: lagfighterchile
+      matcherino: https://matcherino.com/tournaments/64938
+    - region: Europe
+      pools: 3/6 4:00pm UTC
+      stream: kashkabald
+      matcherino: https://matcherino.com/tournaments/64940
+    - region: Brazil
+      pools: 3/6 5:00pm BRT
+      stream: zatefgc
+      matcherino: https://matcherino.com/tournaments/64939
+    - region: North America
+      pools: 3/6 4:00pm PST
+      stream: 956productions
+      matcherino: https://matcherino.com/tournaments/64941
+- game: The King of Fighters XV
+  short: kofxv
+  dates: March 12-13
+  regions:
+    - region: South America
+      pools: 3/12 7:00pm BRT
+      stream: lagfighterchile
+      matcherino: https://matcherino.com/tournaments/64943
+    - region: Southeast Asia
+      pools: 3/13 1:00pm SGT
+      stream: infinitecarnagemy
+      matcherino: https://matcherino.com/tournaments/64942
+    - region: Europe
+      pools: 3/13 4:00pm UTC
+      stream: kashkabald
+      matcherino: https://matcherino.com/tournaments/64945
+    - region: Brazil
+      pools: 3/13 5:00pm BRT
+      stream: zatefgc
+      matcherino: https://matcherino.com/tournaments/64944
+    - region: North America
+      pools: 3/13 4:00pm PST
+      stream: 956productions
+      matcherino: https://matcherino.com/tournaments/64946

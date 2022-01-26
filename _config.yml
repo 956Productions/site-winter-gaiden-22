@@ -1,0 +1,12 @@
+defaults:
+-
+  scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: "default"
+    permalink: /:basename
+smashgg: https://smash.gg/wintergaiden
+twitch: https://twitch.tv/956productions
+twitter: https://twitter.com/956productions
+youtube: https://956pro.com/youtube
