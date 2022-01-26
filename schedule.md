@@ -25,4 +25,8 @@ title: Schedule
         </tbody>
     </table>
 </div>
+{{ g.game }} Tournament registration closes on {{ g.close }} at 12:00 AM Pacific Time.
 {% endfor %}
+# Event Calendar
+All Times in this view are PST / GMT -8 (or PDT / GMT -7 if applicable).
+<iframe class="airtable-embed" src="https://airtable.com/embed/shryJOw5l5nCI1gtS?backgroundColor=cyan" frameborder="0" onmousewheel="" width="100%" height="600" style="background: transparent; border: 1px solid #ccc;"></iframe>

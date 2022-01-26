@@ -1,6 +1,7 @@
 - game: Guilty Gear -Strive-
   short: ggst
   dates: February 26-27
+  close: 2/22/2022
   regions:
     - region: Southeast Asia
       pools: 2/26 1:00pm SGT
@@ -25,6 +26,7 @@
 - game: 'Melty Blood: Type Lumina'
   short: mbtl
   dates: March 05-06
+  close: 3/1/2022
   regions:
     - region: Southeast Asia
       pools: 3/5 1:00pm SGT
@@ -49,6 +51,7 @@
 - game: The King of Fighters XV
   short: kofxv
   dates: March 12-13
+  close: 3/8/2022
   regions:
     - region: South America
       pools: 3/12 7:00pm BRT
