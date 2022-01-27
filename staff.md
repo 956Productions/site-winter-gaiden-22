@@ -24,7 +24,7 @@ title: Staff
                 <div class="media-content">
                     {% if s['Twitter'] %}
                     <span class="icon-text">
-                        <span class="icon">
+                        <span class="icon pt-1">
                             <i class="fab fa-twitter"></i>
                         </span>
                         <span><a href="{{ s['Staff Page Profile Link'] }}"><p class="title is-5 mb-2">{{ s['Twitter'] }}</p></a></span>
