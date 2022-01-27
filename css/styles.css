@@ -14,6 +14,9 @@ td {
 .title {
     font-family: titling
 }
+.content * {
+    scroll-margin-top: 3em;
+}
 .navbar {
     border: 0px;
 }

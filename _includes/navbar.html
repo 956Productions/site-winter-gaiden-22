@@ -16,7 +16,7 @@
   
         <div class="navbar-end">
             {% for p in site.pages %}
-            {% if p.name != "index.md" and p.title %}
+            {% if p.name != "index.md" and p.title and p.hidden != true %}
             <a class="navbar-item has-text-black" href="{{ p.url | relative_url }}">
                 {{ p.title }}
             </a>

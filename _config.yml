@@ -6,8 +6,24 @@ defaults:
   values:
     layout: "default"
     permalink: /:basename
+plugins:
+  - jekyll-toc
+toc:
+  min_level: 1
+  max_level: 3
 smashgg: https://smash.gg/wintergaiden
 twitch: https://twitch.tv/956productions
 twitter: https://twitter.com/956productions
 youtube: https://956pro.com/youtube
 shop: https://vortex-gallery.myspreadshop.com/
+nav:
+  - title: FAQ
+    url: /faq
+  - title: Games
+    url: /games
+  - title: Player's Guide
+    url: /guide
+  - title: Schedule
+    url: /schedule
+  - title: Staff
+    url: /staff

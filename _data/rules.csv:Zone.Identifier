@@ -1,0 +1,3 @@
+[ZoneTransfer]
+ZoneId=3
+HostUrl=https://airtable-csv-exports-production.s3.amazonaws.com/3fc67aae5bd508a2/Rulesets.csv?AWSAccessKeyId=AKIAR7KB7OYSMPA2CKCB&Expires=1643265609&Signature=l8KyWuxalj27qrRAT5MEojCiAq0%3D

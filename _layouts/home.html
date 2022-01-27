@@ -47,7 +47,7 @@
                     <div class="column is-one-third has-text-centered">
                         <img src="{{ 'img/' | relative_url }}{{g.short}}_icon.png">
                         <h2 class="title has-text-white">{{g.dates}}</h2>
-                        <a class="button is-link" href="{{ '/games' | relative_url}}#{{g.short}}">More Info</a>
+                        <a class="button is-link" href="{{ '/games' | relative_url}}#{{g.game | slugify }}">More Info</a>
                     </div>
                     <div class="column is-two-thirds">
                         <div class="table-container">
