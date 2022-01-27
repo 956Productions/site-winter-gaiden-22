@@ -7,13 +7,16 @@ defaults:
     layout: "default"
     permalink: /:basename
 plugins:
-  - jekyll-toc
-toc:
-  min_level: 1
-  max_level: 3
+  - jekyll-seo-tag
+title: 956 Productions
+tagline: "Vortex Gallery: Winter Gaiden"
+description: "VORTEX GALLERY returns to bring you 3 weekends of blockbuster fighting action in GUILTY GEAR -STRIVE-, MELTY BLOOD: TYPE LUMINA and THE KING OF FIGHTERS XV."
 smashgg: https://smash.gg/wintergaiden
 twitch: https://twitch.tv/956productions
-twitter: https://twitter.com/956productions
+twitter: 
+  username: 956productions
+  card: summary
+logo: /img/logo.png
 youtube: https://956pro.com/youtube
 shop: https://vortex-gallery.myspreadshop.com/
 nav:

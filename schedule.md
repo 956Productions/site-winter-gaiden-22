@@ -25,7 +25,7 @@ title: Schedule
         </tbody>
     </table>
 </div>
-{{ g.game }} Tournament registration closes on {{ g.close }} at 11:59 PM Pacific Time.
+{{ g.game }} Tournament registration closes on {{ g.close }} at 12:01 AM Pacific Time.
 {% endfor %}
 # Event Calendar
 All Times in this view are PST / GMT -8 (or PDT / GMT -7 if applicable).

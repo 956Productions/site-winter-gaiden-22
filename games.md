@@ -3,13 +3,13 @@ title: Games
 layout: sidebar
 toc: true
 ---
-For general rules and regulations applicable to 956 Productions events, refer to our [Player's Guide.]({{ '/guide' | relative_url}})
+This page houses game-specific rules, broken down into regions. For general rules and regulations applicable to 956 Productions events, refer to our [Player's Guide.]({{ '/guide' | relative_url}})
 # Guilty Gear Strive
 ---
 {% for r in site.data.rules %}
 {% if r["Game Name (from Game)"] == "Guilty Gear -STRIVE-" %}
 ## {{ r["Name (from Regions)"] }}
-* Registration ends on {{ r["Reg Ends"] }} at 11:59 PM Pacific Time.
+* Registration ends on {{ r["Reg Ends"] }} at 12:01 AM Pacific Time.
 * Pools begin at  {{ r["Start Time (Local)"] }} {{ r["Local Timezone"] }} (Official region timezone)
 * Platform: {{ r["Platform"] }}
 * Entry Fee: {{ r["Entry $"] }}
