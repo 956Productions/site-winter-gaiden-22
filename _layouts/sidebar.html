@@ -26,7 +26,7 @@
                     <div class="column is-one-third">
                         <div class="content has-text-white">
                             <h1>Table of Contents</h1>
-                            {{ content | toc_only }}
+                            {% include toc.html html=content h_max=3 %}
                         </div>
                     </div>
                 </div>
