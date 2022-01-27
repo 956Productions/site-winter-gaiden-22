@@ -9,6 +9,8 @@ This page houses game-specific rules, broken down into regions. For general rule
 {% for r in site.data.rules %}
 {% if r["Game Name (from Game)"] == "Guilty Gear -STRIVE-" %}
 ## {{ r["Name (from Regions)"] }}
+
+#### Tournament Info
 * Registration ends on {{ r["Reg Ends"] }} at 12:01 AM Pacific Time.
 * Pools begin at  {{ r["Start Time (Local)"] }} {{ r["Local Timezone"] }} (Official region timezone)
 * Platform: {{ r["Platform"] }}
@@ -36,6 +38,8 @@ This page houses game-specific rules, broken down into regions. For general rule
 {% for r in site.data.rules %}
 {% if r["Game Name (from Game)"] == "Melty Blood: Type Lumina" %}
 ## {{ r["Name (from Regions)"] }}
+
+#### Tournament Info
 * Registration ends on {{ r["Reg Ends"] }} at 11:59 PM Pacific Time.
 * Pools begin at  {{ r["Start Time (Local)"] }} {{ r["Local Timezone"] }} (Official region timezone)
 * Platform: {{ r["Platform"] }}
@@ -63,6 +67,8 @@ This page houses game-specific rules, broken down into regions. For general rule
 {% for r in site.data.rules %}
 {% if r["Game Name (from Game)"] == "King of Fighters XV" %}
 ## {{ r["Name (from Regions)"] }}
+
+#### Tournament Info
 * Registration ends on {{ r["Reg Ends"] }} at 11:59 PM Pacific Time.
 * Pools begin at  {{ r["Start Time (Local)"] }} {{ r["Local Timezone"] }} (Official region timezone)
 * Platform: {{ r["Platform"] }}

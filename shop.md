@@ -1,6 +1,7 @@
 ---
 title: Shop
 layout: shop
+hidden: true
 ---
 <div id="myShop">
     <a href="https://vortex-gallery.myspreadshop.com">vortex-gallery</a>

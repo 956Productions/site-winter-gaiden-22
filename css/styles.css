@@ -11,7 +11,7 @@ td {
     font-family: titling;
     src: url('/img/font.ttf');
 }
-.title {
+.titling {
     font-family: titling
 }
 .content * {
