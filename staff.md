@@ -15,7 +15,7 @@ title: Staff
                 {% if s['Pic'] %}
                 <img src="{{ s['Pic'] }}">
                 {% else %}
-                <img src="{{ '/img/unknown.png' | relative_url }}">
+                <img src="{{ '/img/unknown.webp' | relative_url }}">
                 {% endif %}
             </figure>
         </div>

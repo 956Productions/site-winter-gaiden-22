@@ -1,5 +1,5 @@
 .front-hero {
-    background: url('/img/wg_hero.png');
+    background: url('/img/wg_hero.webp');
     background-position: center;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -21,8 +21,8 @@ td {
     border: 0px;
 }
 .site-footer {
-	background: linear-gradient(rgba(1,10,25,1), rgba(1,10,25,.1)), url("/img/footer.png");
+	background: linear-gradient(rgba(1,10,25,1), rgba(1,10,25,.1)), url("/img/footer.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
-    background-position: 50% 15%;
+    backdrop-filter: blur(8px);
 }

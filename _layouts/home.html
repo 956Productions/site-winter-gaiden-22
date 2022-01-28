@@ -6,10 +6,10 @@
         <section class="hero front-hero is-info is-medium is-justify-content-end">
             <div class="hero-body has-text-centered pb-4">
                 <div class="block mb-0">
-                    <img src="{{ 'img/logo.png' | relative_url }}" style="max-height: 180px; width: auto;">
+                    <img src="{{ 'img/logo.webp' | relative_url }}">
                 </div>
                 <div class="block">
-                    <img src="{{ 'img/wg_text.png' | relative_url }}" style="max-height: 80px; width: auto;">
+                    <img src="{{ 'img/wg_text.webp' | relative_url }}" style="max-height: 80px; width: auto;">
                 </div>
             </div>
         </section>
@@ -45,7 +45,7 @@
                 <div class="columns is-multiline is-vcentered">
                 {% for g in site.data.schedule %}
                     <div class="column is-one-third has-text-centered">
-                        <img src="{{ 'img/' | relative_url }}{{g.short}}_icon.png" width="300px">
+                        <img src="{{ 'img/' | relative_url }}{{g.short}}_icon.webp" width="300">
                         <h2 class="title titling has-text-white">{{g.dates}}</h2>
                         <a class="button is-link" href="{{ '/games' | relative_url}}#{{g.game | slugify }}">More Info</a>
                     </div>
