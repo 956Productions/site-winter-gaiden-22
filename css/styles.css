@@ -20,3 +20,9 @@ td {
 .navbar {
     border: 0px;
 }
+.site-footer {
+	background: linear-gradient(rgba(1,10,25,1), rgba(1,10,25,.1)), url("/img/footer.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: 50% 15%;
+}

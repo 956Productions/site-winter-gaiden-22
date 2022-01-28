@@ -17,13 +17,13 @@
         </section>
         <section class="section has-background-black-bis">
             <div class="container is-max-desktop">
-                <div class="columns">
-                    <div class="column is-two-thirds">
+                <div class="columns is-flex is-flex-direction-row is-flex-wrap-wrap-reverse">
+                    <div class="column is-two-thirds is-flex-grow-1" style="min-width: 300px;">
                         <div class="content has-text-white">
                             {{ content }}
                         </div>
                     </div>
-                    <div class="column is-one-third">
+                    <div class="column is-one-third is-flex-grow-1" style="min-width: 300px;">
                         <div class="content has-text-white">
                             <h1>Table of Contents</h1>
                             {% include toc.html html=content h_max=3 %}
