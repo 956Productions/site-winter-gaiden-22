@@ -26,3 +26,7 @@ Sometimes we get volunteer submissions from people who are passionate about thei
 A: トーナメント進行、配信、解説・実況、機材の提供など、ボランティアの応募を行いたい場合は「@956Productions」Twitterページにあるボランティア申請フォームをご確認ください。その他の質問は「@956Productions」TwitterアカウントまでDMでお問い合わせください。
 
 ※ 特定のタイトルを主催したくてもトーナメント進行の経験が浅い方は、自身のコミュニティ内でイベントを主催し経験を積み、経験者からアドバイスを聞く事をお勧めいたします。昨年のオンラインイベントはスタッフと参加人数も大規模なイベントとなり、タイトルの参加者数問わず、他のVortex Gallery種目のスケジュールと主催者達と共同する責任があります。
+
+### Q: Can I/my company sponsor or market through Vortex Gallery?
+
+A: Please provide us with your contact information through [this form](https://956pro.com/wintergaidensponsors) and we will reach out to you with the details provided.
