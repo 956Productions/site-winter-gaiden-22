@@ -16,6 +16,7 @@ This page houses game-specific rules, broken down into regions. For general rule
 * Platform: {{ r["Platform"] }}
 * Entry Fee: {{ r["Entry $"] }}
 * Registration Cap: {{ r["Cap"] }} Entrants
+* Matcherino pot link: [{{ r["Matcherino Link"] }}](https://{{ r["Matcherino Link"] }})
 * Prize pot split: {{ r["Pot Split"] }}
 * Region Includes: {{ r["Region Includes"] | normalize_whitespace }}
 
@@ -45,6 +46,7 @@ This page houses game-specific rules, broken down into regions. For general rule
 * Platform: {{ r["Platform"] }}
 * Entry Fee: {{ r["Entry $"] }}
 * Registration Cap: {{ r["Cap"] }} Entrants
+* Matcherino pot link: [{{ r["Matcherino Link"] }}](https://{{ r["Matcherino Link"] }})
 * Prize pot split: {{ r["Pot Split"] }}
 * Region Includes: {{ r["Region Includes"] | normalize_whitespace }}
 
@@ -74,6 +76,7 @@ This page houses game-specific rules, broken down into regions. For general rule
 * Platform: {{ r["Platform"] }}
 * Entry Fee: {{ r["Entry $"] }}
 * Registration Cap: {{ r["Cap"] }} Entrants
+* Matcherino pot link: [{{ r["Matcherino Link"] }}](https://{{ r["Matcherino Link"] }})
 * Prize pot split: {{ r["Pot Split"] }}
 * Region Includes: {{ r["Region Includes"] | normalize_whitespace }}
 
