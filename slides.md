@@ -18,10 +18,11 @@ var flkty = new Flickity( '.main-carousel', {
 autoPlay: 8000,
 prevNextButtons: false,
 pageDots: false,
-contain: true,
+contain: false,
 adaptiveHeight: true,
 pauseAutoPlayOnHover: false,
 resize: false,
-wrapAround: true
+wrapAround: true,
+setGallerySize: false
 });
 </script>
