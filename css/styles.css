@@ -26,3 +26,19 @@ td {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.flickity-viewport {
+    height: 100% !important;
+    max-height: 1080px;
+    max-width: 1920px;
+}
+.main-carousel {
+    height: 200vh;
+    max-height: 1080px;
+    max-width: 1920px;
+}
+.carousel-cell, .carousel-cell > img {
+    width: 100%;
+    height: auto;
+    max-height: 1080px;
+    max-width: 1920px;
+}
