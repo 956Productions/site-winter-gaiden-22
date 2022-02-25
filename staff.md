@@ -15,7 +15,11 @@ title: Staff
                 {% if s['Pic'] %}
                 <img src="{{ s['Pic'] }}">
                 {% else %}
-                <img src="{{ '/img/unknown.webp' | relative_url }}">
+                {% assign min = 1 %}
+                {% assign max = 85 %}
+                {% assign diff = max | minus: min %}
+                {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+                <img src='/img/staff/staff_{{ randomNumber }}.jpg'>
                 {% endif %}
             </figure>
         </div>
@@ -27,7 +31,7 @@ title: Staff
                         <span class="icon pt-1">
                             <i class="fab fa-twitter"></i>
                         </span>
-                        <span><a href="{{ s['Staff Page Profile Link'] }}"><p class="title is-5 mb-2">{{ s['Twitter'] }}</p></a></span>
+                        <span><a href="https://twitter.com/{{ s['Twitter'] }}"><p class="title is-5 mb-2">{{ s['Twitter'] }}</p></a></span>
                     </span>
                     {% endif %}
                     {% if s['Pronouns'] %}
