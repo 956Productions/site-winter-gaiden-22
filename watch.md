@@ -15,7 +15,6 @@ hidden: true
     width: "100%",
     height: 720,
     channel: "956productions",
-    // Only needed if this page is going to be embedded on other websites
     parent: ["winter.vortexgallery.moe"]
 });
 </script>
