@@ -35,6 +35,7 @@ title: Schedule
 <a href="/img/schedule_mbtl.png" data-lightbox="schedule_mbtl.png" data-title="MBTL Schedule">
     <img class="image" src="/img/schedule_mbtl.png">
 </a>
+
 <a href="/img/schedule_kofxv.png" data-lightbox="schedule_kofxv.png" data-title="KOFXV Schedule">
     <img class="image" src="/img/schedule_kofxv.png">
 </a>
