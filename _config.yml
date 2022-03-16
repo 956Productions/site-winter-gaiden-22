@@ -8,7 +8,7 @@ defaults:
     permalink: /:basename
 plugins:
   - jekyll-seo-tag
-title: 956 Productions
+title: Winter Gaiden by 956 Productions
 tagline: "Vortex Gallery: Winter Gaiden"
 description: "VORTEX GALLERY returns to bring you 3 weekends of blockbuster fighting action in GUILTY GEAR -STRIVE-, MELTY BLOOD: TYPE LUMINA and THE KING OF FIGHTERS XV."
 smashgg: https://smash.gg/wintergaiden
