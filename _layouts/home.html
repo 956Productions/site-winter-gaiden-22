@@ -13,83 +13,15 @@
                 </div>
             </div>
         </section>
-        <section class="section has-background-white has-text-centered py-3">
-            <div class="columns is-centered is-multiline is-vcentered">
-                <div class="column is-narrow">
-                    <h1 class="title titling mb-3 has-text-black">Online Tournaments on PC in 5 Regions across 3 Weekends</h1>
-                    <div class="block">
-                        <span class="tag is-black is-medium mb-1" style="background-color: #EF213A">North America</span>
-                        <span class="tag is-black is-medium mb-1" style="background-color: #7B6300">South America</span>
-                        <span class="tag is-black is-medium mb-1" style="background-color: #009429">Brazil</span>
-                        <span class="tag is-black is-medium mb-1" style="background-color: #21BDF7">Southeast Asia</span>
-                        <span class="tag is-black is-medium mb-1" style="background-color: #00299C">Europe</span>
-                    </div>
-                </div>
-                <div class="column is-narrow">
-                    <a class="button is-primary is-large mb-2 is-fullwidth" href="{{ site.smashgg }}"><strong>REGISTER NOW</strong></a>
-                    <a class="button is-link is-large mb-0 is-fullwidth" href="{{ '/watch' | relative_url }}"><strong>WATCH LIVE</strong></a>
-                </div>
-            </div>
-        </section>
         <section class="section has-background-black-ter">
             <div class="container block">
-                <h1 class="title titling is-1 has-text-white has-text-centered">Welcome to {{ page.title }}</h1>
-                <div class="content has-text-white has-text-centered">
+                <h1 class="title titling is-1 has-text-white has-text-centered">{{ page.title }}</h1>
+                <div class="content has-text-white">
                     {{ content }}
                 </div>
             </div>
         </section>
         {% include shop.html %}
-        <section class="section has-background-black-bis">
-            <div class="container block">
-                <h1 class="title titling is-1 has-text-white has-text-centered">Event Schedule</h1>
-                <div class="columns is-multiline is-vcentered">
-                {% for g in site.data.schedule %}
-                    <div class="column is-one-third has-text-centered">
-                        <img src="{{ 'img/' | relative_url }}{{g.short}}_icon.webp" width="300">
-                        <h2 class="title titling has-text-white">{{g.dates}}</h2>
-                        <a class="button is-link" href="{{ '/games' | relative_url}}#{{g.game | slugify }}">More Info</a>
-                    </div>
-                    <div class="column is-two-thirds">
-                        <div class="table-container">
-                            <table class="table is-fullwidth has-background-black-bis has-text-white is-narrow">
-                                <thead>
-                                    <tr>
-                                        <th class="has-text-white">Region</th>
-                                        <th class="has-text-white">Local Pools Time</th>
-                                        <th class="has-text-white">Stream</th>
-                                        <th class="has-text-white">Matcherino</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {% for i in g.regions %}
-                                    <tr>
-                                        <td>{{ i.region }}</td>
-                                        <td>{{ i.pools }}</td>
-                                        <td><a href="https://twitch.tv/{{ i.stream }}">{{ i.stream }}</a></td>
-                                        <td><a href="{{ i.matcherino }}">Click Here</a></td>
-                                    </tr>
-                                    {% endfor %}
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
-        </section>
-        <section class="section has-background-black">
-            <div class="container is-max-desktop">
-                <div class="content has-text-centered">
-                    <div class="block">
-                        <h1 class="title titling is-1">Sponsorship Inquiries</h1>
-                        <h2 class="subtitle is-5">Open for sponsorships, marketing and press inquiries.</h2>
-                    </div>
-                    <div class="block">
-                        <a class="button is-white is-large" href="https://956pro.com/wintergaidensponsors">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </section>
     </body>
     {% include footer.html %}
 </html>
