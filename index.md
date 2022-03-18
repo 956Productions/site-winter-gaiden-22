@@ -43,7 +43,7 @@ Winter Gaiden 2022 is a wrap! Thanks again to our regional partners and everyone
 {% include image.html file='wg_kofxv_results_eu.jpg' caption='Winter Gaiden KOFXV Europe' group='KOFXV' %}
 
 #### VODs
-- North America
+- [North America](https://www.youtube.com/watch?v=3pVF3u2xiu4)
 - [South America](https://www.youtube.com/watch?v=FMVVqRvPibw)
 - [Brazil](https://www.twitch.tv/videos/1425406649)
 - [South East Asia](https://www.youtube.com/watch?v=Ef-QMNp4Wj8)
